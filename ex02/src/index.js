@@ -6,7 +6,7 @@ class Book {
         return this._title;
     };
     set title(newTitle) {
-        this._title = newTitle
+        this._title = newTitle;
     };
 };
 

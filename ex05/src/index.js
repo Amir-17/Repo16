@@ -3,13 +3,13 @@ class Microsoft {
         this.name = name;
     };
     get name() {
-        return this._name
+        return this._name;
     };
     set name(newName) {
         this._name = newName;
     };
     occupation() {
-        return `${this.name} is a philantrhopist!`
+        return `${this.name} is a philantrhopist!`;
     };
 };
 
