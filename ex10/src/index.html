@@ -29,13 +29,11 @@
         <li class="nav-links">
           <a href="#higher_order_functions">Higher-order Functions</a>
         </li>
-        <li class="nav-links">
-          <img
-            id="header-img"
-            src="https://eloquentjavascript.net/img/cover.jpg"
-            alt="Eloquent JavaScript"
-          />
-        </li>
+        <img
+          id="header-img"
+          src="https://eloquentjavascript.net/img/cover.jpg"
+          alt="Eloquent JavaScript"
+        />
       </ul>
     </nav>
 
@@ -69,15 +67,10 @@
               programming languages. Programs looked something like this:
             </p>
             <code>
-              00110001 00000000 00000000 
-              00110001 00000001 00000001 
-              00110011 00000001 00000010 
-              01010001 00001011 00000010 
-              00100010 00000010 00001000 
-              01000011 00000001 00000000 
-              01000001 00000001 00000001
-              00010000 00000010 00000000 
-              01100010 00000000 00000000
+              00110001 00000000 00000000 00110001 00000001 00000001 00110011
+              00000001 00000010 01010001 00001011 00000010 00100010 00000010
+              00001000 01000011 00000001 00000000 01000001 00000001 00000001
+              00010000 00000010 00000000 01100010 00000000 00000000
             </code>
           </li>
         </ul>
@@ -92,8 +85,7 @@
             mentioned. All this data is stored as long sequences of bits and is
             thus fundamentally alike.
           </p>
-          <code>0 0 0 0 1 1 0 1 
-            128 64 32 16 8 4 2 1 </code>
+          <code>0 0 0 0 1 1 0 1 128 64 32 16 8 4 2 1 </code>
         </article>
       </section>
 
@@ -141,12 +133,8 @@
                 number:
               </p>
               <code>
-                const square = function(x) {
-                                 return x * x; 
-                               };
-                               
-                               console.log(square(12)); 
-                               // → 144
+                const square = function(x) { return x * x; };
+                console.log(square(12)); // → 144
               </code>
             </li>
           </ul>
